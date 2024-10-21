@@ -1,0 +1,64 @@
+.welcom-page-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh;
+    background-color: #f9f9f9;
+    text-align: left;
+    padding: 20px; 
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.circle-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.circles {
+    display: flex;
+    gap: 1px; 
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: background-color 0.5s; 
+}
+.welcom-page-text-heading{
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.welcom-page-text-text{
+    margin-bottom: 40px;
+    color: gray;
+}
+
+.black {
+    background-color: black;
+}
+
+.gray {
+    background-color: gray;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.coll-50{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    img{
+        border-radius: 20px;
+    }
+}
