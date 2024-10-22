@@ -18,9 +18,10 @@ function WelcomePage() {
         <>
             <div className="container">
                 <div className="welcom-page-box">
-
+                {/* <h1 className='intro'>Intro Diana</h1> */}
                     <div className="row">
                         <div className="coll-50">
+                            
                             <div className="circle-item">
                                 <div className="circles">
                                     <div className={`circle ${isBlack ? 'black' : 'gray'}`}></div>

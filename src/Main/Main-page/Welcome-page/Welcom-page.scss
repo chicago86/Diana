@@ -2,20 +2,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: flex-start;
     height: 100vh;
     background-color: #f9f9f9;
     text-align: left;
-    padding: 20px; 
+    padding: 20px;
     border-radius: 10px;
+    margin-bottom: 70px;
 }
 
 h1 {
     font-size: 2em;
     color: #333;
     line-height: 1.5;
-    margin-bottom: 20px;
 }
+
 .circle-item {
     display: flex;
     margin-bottom: 20px;
@@ -23,20 +24,35 @@ h1 {
 
 .circles {
     display: flex;
-    gap: 1px; 
+    gap: 1px;
+}
+
+.intro {
+    margin-bottom: 0;
+}
+
+.intro {
+    background-image: url('./img/intro.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
 }
 
 .circle {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    transition: background-color 0.5s; 
+    transition: background-color 0.5s;
 }
-.welcom-page-text-heading{
+
+.welcom-page-text-heading {
     font-style: italic;
     margin-bottom: 20px;
 }
-.welcom-page-text-text{
+
+.welcom-page-text-text {
     margin-bottom: 40px;
     color: gray;
 }
@@ -48,17 +64,23 @@ h1 {
 .gray {
     background-color: gray;
 }
-.row{
+
+.row {
     display: flex;
     flex-wrap: wrap;
 }
-.coll-50{
+
+.coll-50 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    img{
+    position: relative;
+
+    img {
         border-radius: 20px;
     }
+    
 }
+
